@@ -2,6 +2,13 @@
 
 class Solution {
 public:
+    /*
+    Time complexity: O(N), where N is the size of the input vectors.
+                     This is because the while loop that populates the map takes O(N) time and the
+                     for loop that uses the map to construct the result vector also takes O(N) time.
+
+    Space complexity: O(N), because the map and result vector each require O(N) space to store the input and output data.
+    */
     vector<int> anagramMappings(vector<int>& nums1, vector<int>& nums2) {
         // Create a map that maps integer keys to integer values
         map<int, int> hm;
