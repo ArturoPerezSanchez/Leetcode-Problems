@@ -2,6 +2,14 @@
 
 class Solution {
 public:
+    /*
+        Time complexity: O(n), where n is the length of the input path string. This is because the code iterates over each character in the input string exactly
+                               once to extract the individual path segments, and then loops over each segment in the simplified path to construct the final string.
+
+        Space complexity: O(n), where n is the length of the input path string. This is because the code creates a vector of strings to store the intermediate path segments 
+                                which could potentially be as large as the input string itself in the case where every character represents a new directory.
+                                The space required for other variables like the stringstream, segment, and res is at most equal to n so space complexity can still be described as O(n).
+    */
     string simplifyPath(string path) {
 
         // Initialize a stringstream object with the input string.
