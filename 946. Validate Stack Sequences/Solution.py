@@ -1,6 +1,13 @@
 # https://leetcode.com/problems/validate-stack-sequences
 
 class Solution:
+    '''
+        Time complexity: O(n), where n is the length of the pushed list. The code loops through each element
+                         of the pushed list once and performs constant time operations on each iteration.
+
+        Space complexity: O(n), where n is the length of the pushed list. The code uses a stack to keep track of the pushed elements,
+                          and in the worst case scenario, the stack will contain all n elements of the pushed list.
+    '''
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
 
         # If the pushed list is empty, return True if the popped list is also empty, otherwise return False
