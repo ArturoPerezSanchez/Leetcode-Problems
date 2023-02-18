@@ -1,6 +1,11 @@
 # https://leetcode.com/problems/longest-palindromic-subsequence/
 
 class Solution:
+    '''
+    Time complexity: The time complexity of the algorithm is O(n^2), where n is the length of the input string, due to the recursive calls and memoization.
+
+    Space complexity: The space complexity of the algorithm is also O(n^2), as we use memoization to store the results of subproblems in a cache, which can take up to O(n^2) space.
+    '''
     def longestPalindromeSubseq(self, s: str) -> int:
         
         # Define a recursive function rec with memoization using the cache decorator
