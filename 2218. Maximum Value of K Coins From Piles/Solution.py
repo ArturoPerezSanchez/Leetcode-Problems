@@ -1,6 +1,12 @@
 # https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/
 
 class Solution:
+    '''
+    Time complexity: O(n * k^2), where n is the number of piles and k is the maximum weight.
+                     This is because we iterate through each pile and each weight up to k in the nested loops.
+
+    Space complexity: O(n * k), since we create a 2D dp array of size n x k, as well as arrays of size n and count.
+    '''
     def maxValueOfCoins(self, piles: List[List[int]], k: int) -> int:
         
         # Get the number of piles and increment k
