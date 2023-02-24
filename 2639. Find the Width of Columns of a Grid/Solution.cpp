@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/
 
-class Solution:
+class Solution {
     /*
     Time complexity: O(m*n), The function loops through each element in the grid once, so the time complexity of this function is O(m*n),
                  where m is the number of rows in the grid and n is the number of columns in the grid.
@@ -8,7 +8,7 @@ class Solution:
 
     Space complexity: O(n), To keep track of the maximum length of integers in each column, the function uses a list of length equal to the number of columns in the grid.
     */
-    class Solution {
+    // Solution counting the the length of the numbers converting it to string first
     public:
         vector<int> findColumnWidth(vector<vector<int>>& grid) {
             vector<int> ans(grid[0].size());
