@@ -7,6 +7,13 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    '''
+    Time complexity: O(n), where n is the number of nodes in the tree. The code visits each node in the binary tree exactly once, so the time complexity is O(n)
+
+    Space complexity: O(w), where w is the maximum width of the tree (i.e., the maximum number of nodes in a single level of the tree).
+                      In the worst case, where the tree is a complete binary tree of height h, the maximum width is 2^(h-1), so the space complexity is O(2^(h-1)).
+
+    '''
     def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         
         # If the root is empty, return it as is
