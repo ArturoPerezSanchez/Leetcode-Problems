@@ -1,7 +1,14 @@
 # https://leetcode.com/problems/merge-strings-alternately
 
 class Solution:
+    '''
+    Time complexity: O(n), where n is the length of the longer string between word1 and word2. The for loop iterates through the characters of the two strings
+                     using the zip function, which takes O(min(len(word1), len(word2))) time. The concatenation of the characters also takes O(1) time.
+                     Then, the if-else block after the for loop takes O(max(len(word1), len(word2)) - min(len(word1), len(word2))) time to concatenate the remaining characters.
 
+    Space complexity: O(m + n), where m is the length of word1 and n is the length of word2.
+                      Since the "res" variable stores the merged string, it takes up space equivalent to the total length of word1 and word2.
+    '''
     def mergeAlternately(self, word1: str, word2: str) -> str:
     # Initialize an empty string to store the merged result
     res = ""
