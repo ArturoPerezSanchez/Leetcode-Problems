@@ -1,6 +1,12 @@
 # https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/
 
 class Solution:
+    '''
+    Time complexity: O(n), where n is the number of nodes in the binary tree, because each node is visited by the "rec" function only once.
+    
+    Space complexity: O(n), where n is the number of nodes in the binary tree, because the maximum depth of the recursive call stack is equal to
+                      the height of the binary tree and the function uses a constant amount of extra space.
+    '''
     def longestZigZag(self, root: Optional[TreeNode]) -> int:
         # Define a global variable to store the result.
         global res
