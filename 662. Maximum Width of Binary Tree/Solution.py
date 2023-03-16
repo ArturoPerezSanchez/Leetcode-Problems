@@ -7,6 +7,11 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+	'''
+		Time complexity: O(N), where N is the number of nodes in the binary tree, because each node is visited once.
+
+		Space complexity: O(M), where M is the maximum number of nodes that can be present at a single level in the binary tree. This is because, at most, all the nodes at the maximum level can be stored in the "level" deque at the same time.
+	'''
 	def widthOfBinaryTree(self, root: Optional[TreeNode]) -> int:
 		# Create a deque called level, and add root to it with its index as 1
 		level = deque([(root, 1)])
