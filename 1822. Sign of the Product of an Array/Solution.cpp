@@ -2,6 +2,11 @@
 
 class Solution {
 public:
+    /*
+    Time complexity: O(n), where n is the size of the input vector. The function iterates through each element in the input vector exactly once.
+
+    Space complexity: O(1). The function uses a constant amount of extra space, independent of the size of the input vector.
+    */
     int arraySign(vector<int>& nums) {
         // Initialize a variable to keep track of the sign of the product of all elements in the vector
         int res = 1;
