@@ -12,7 +12,7 @@ Most of the solutions are in Python although I will eventually be adding the sol
     </div>
     <br>
     <table border="0">
-      <td border="0"  >
+      <td border="0"  valign="top">
            <a href="https://leetcode.com/ArturoPerez/">
                <img  src="https://leetcode-badge-showcase.vercel.app/api?username=ArturoPerez&theme=dark"  alt="LeetCode Badges"/>
           </a>
