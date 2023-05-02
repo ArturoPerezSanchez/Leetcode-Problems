@@ -14,11 +14,11 @@ Most of the solutions are in Python although I will eventually be adding the sol
     <table border="0">
       <td border="0"  valign="top">
            <a href="https://leetcode.com/ArturoPerez/">
-                <img  src="https://leetcard.jacoblin.cool/ArturoPerez?theme=nord&font=Roboto&ext=heatmap"  alt="LeetCode HeatMap"/>
+               <img  src="https://leetcode-badge-showcase.vercel.app/api?username=ArturoPerez&theme=dark"  alt="LeetCode Badges"/>
           </a>
-      </td> <td border="0" >
+      </td> <td border="0" valign="top">
             <a href="https://leetcode.com/ArturoPerez/">
-                <img  src="https://leetcode-badge-showcase.vercel.app/api?username=ArturoPerez&theme=dark"  alt="LeetCode Badges"/>
+                 <img  src="https://leetcard.jacoblin.cool/ArturoPerez?theme=nord&font=Roboto&ext=heatmap"  alt="LeetCode HeatMap"/>
            </a>
       </td>
     </table>
